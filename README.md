@@ -30,6 +30,7 @@ portafolio de travajo digitales
 | JavaScript | Interactividad y funcionalidades dinámicas | 🚀 |
 | Font Awesome | Iconos modernos para la interfaz | ✨ |
 | Git & GitHub | Control de versiones y despliegue | 🌿 |
+| Base datos | Creacion Control datos | 📝 |
 
 ## 🚀 Ruta de Aprendizaje (Skills Path)
 
@@ -42,4 +43,8 @@ B --> C[🚀 JavaScript]
 C --> D[⚙️ Node.js]
 D --> E[📦 JSON]
 E --> F[🔄 React]
-F --> G[🌟 Aprendizaje Continuo]
+F --> G[📊 BASE]
+G --> H[📗 SQL]
+G --> I[📗 NOSQL]
+
+
