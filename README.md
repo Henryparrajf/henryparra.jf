@@ -3,7 +3,7 @@ portafolio de travajo digitales
 
 # 🎨 Portafolio de Desarrollador Frontend 
 
-![Portada del Portafolio](https://via.placeholder.com/800x400?text=Captura+del+Portafolio+Frontend)
+![Portada del Portafolio](https://henryparra-jf.vercel.app)
 *Interfaz moderna y atractiva para mostrar mis habilidades como desarrollador frontend*
 
 ¡Bienvenido a mi portafolio! Un espacio donde muestro mis habilidades, proyectos y mi ruta de aprendizaje en el desarrollo frontend. Diseñado con 💖, código limpio y mucha creatividad.
