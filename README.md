@@ -45,6 +45,8 @@ D --> E[📦 JSON]
 E --> F[🔄 React]
 F --> G[📊 BASE]
 G --> H[📗 SQL]
+G --> K[🌟 Aprendizaje Continuo]
 G --> I[📗 NOSQL]
+
 
 
