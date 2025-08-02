@@ -12,7 +12,7 @@
     <!-- Header -->
     <header id="header">
         <div class="container header-container">
-            <a href="#" class="logo">Ale<span>Dev</span></a>
+            <a href="#" class="logo">Henry<span>PARRA</span></a>
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -211,7 +211,7 @@
                             </div>
                             <div class="contact-text">
                                 <h4>Email</h4>
-                                <a href="mailto:contacto@aledev.com">henryparra.jf@gemail.com</a>
+                                <a href="henryparra.jf@gemail">henryparra.jf@gemail.com</a>
                             </div>
                         </div>
                         
@@ -317,7 +317,7 @@
             </div>
             
             <div class="copyright">
-                <p>&copy; 2024 AleDev. Todos los derechos reservados. Diseñado y desarrollado con ❤️ por Alejandro</p>
+                <p>&copy; 2025 Henry parra jf. Todos los derechos reservados. Diseñado y desarrollado con ❤️ por Alejandro</p>
             </div>
         </div>
     </footer>
@@ -328,5 +328,21 @@
     </a>
 
     <script src="script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+    (function(){
+        emailjs.init("TU_USER_ID"); // Reemplaza por tu User ID de EmailJS
+    })();
+
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        emailjs.sendForm('TU_SERVICE_ID', 'TU_TEMPLATE_ID', this)
+            .then(function() {
+                alert('¡Mensaje enviado correctamente!');
+            }, function(error) {
+                alert('Error al enviar el mensaje: ' + error.text);
+            });
+    });
+</script>
 </body>
 </html>
