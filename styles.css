@@ -784,7 +784,7 @@ footer {
     .portfolio-grid {
         grid-template-columns: 1fr;
     }
-    padding: 10px;
+    
 }
 
 /**movil📱**/
@@ -1110,5 +1110,23 @@ justify-content: center;
    /* color: #FF02CC;*/
 }
 
-
+/**🎯**/
+.about-skills {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Opcional: padding para mejorar la visualización */
+    padding: 0 5px;
+  }
+  .skill-bar {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .skill-info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
