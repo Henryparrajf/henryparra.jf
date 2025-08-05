@@ -1166,4 +1166,10 @@ justify-content: center;
     min-width: 5px;
     /* El ancho se animará por JS */ /*ojo*/
   }
+  .stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 10px;
+}
 }
